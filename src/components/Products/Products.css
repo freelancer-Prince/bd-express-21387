@@ -1,0 +1,61 @@
+ #card{
+    width: 15rem;
+    margin: 1.50px;
+
+ }
+
+.products{
+    display: flex ;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.hot{
+    position: absolute;
+    top: 0;
+    background-color: #f57224;
+    padding: 5px 6px;
+}
+.new{
+    position: absolute;
+    top: 0;
+    background-color: #43ff09;
+    padding: 5px 6px;
+}
+
+.product-name{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 12px 0;
+}
+.product-price{
+    font-size: 20px;
+    font-weight: 300;
+    margin: 12px 0;
+}
+.add-to-cart{
+    background-color: #f57224;
+    padding: 10px 20px;
+    width: 100%;
+    color: #fbfbfb;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 800px) {
+    #card{
+       width: none;
+       display: table-row;   
+       background-color: #f57224;
+       padding: 20px;
+    }
+    .hot{
+        top: 8px;
+    }
+    .new{
+        top: 8px;
+    }
+   }
